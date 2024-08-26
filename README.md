@@ -29,4 +29,4 @@ El proyecto sigue el patrón de diseño MVC para separar las responsabilidades d
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/encriptador-de-texto.git
+   git clone https://github.com/JosephAntony37900/Challenge_oracle_grupo7.git
