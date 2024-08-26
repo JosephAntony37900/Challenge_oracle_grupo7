@@ -18,6 +18,7 @@ body {
     overflow: hidden;
     width: 80%;
     max-width: 1000px;
+    flex-direction: row; /* Mantener las secciones lado a lado por defecto */
 }
 
 .input-section, .output-section {
@@ -130,4 +131,16 @@ footer {
     margin-top: 20px;
     text-align: center;
     color: #666;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .input-section {
+        border-right: none; 
+        border-bottom: 1px solid #e1e4ea; 
+    }
 }
